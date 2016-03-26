@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trihu Crea tu sitio web sin dolor.</title>
+	<link rel="stylesheet" href="./css/bootstrap.css">
+	<link rel="stylesheet" href="./css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="./css/start.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" >
+  <link rel="shortcut icon" href="../img/favicon.png">
+	
+
+
+</head>
+<body class="background">
+<header >
+<nav class="navbar navbar-default menu">
+
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html" >
+            <img src="img/logo.svg" class="img-responsive" width="250px" height="81" alt=""></a>
+        </div>
+        <!--
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="text-center"><a href="caracteristicas.html">Características</a></li>
+            <li class="text-center "><a href="solicitud.html" >Startups</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+        
+      </div>
+    </nav>
+
+
+
+<div class="container ">
+    <div id="sector1" class="main row no-gutters ">
+        <div class="col-xs-12">
+          <h1 class="  text-center">
+            Déjanos tus datos y empieza a <br><strong>anunciarte con nosotros.</strong>
+          </h1>
+          <h2 class=" hidden-sm hidden-xs">30 dólares por dos meses mas <strong>un mes gratis al iniciar.</strong>
+          </h2>
+			<form action="./php/solicitud.php" id="formulario" method="post" class="campos" role="form">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 ">
+                    <input type="text" name="nombre" class=" form-control " placeholder="Tu nombre" id="email">
+                </div>
+                <div class="col-md-6 col-sm-12 campos">
+                    <input type="text" name="mail" class=" form-control" placeholder="Mail" id="pwd">
+                </div>
+                
+                <div class="col-md-6 col-sm-12 campos">
+                    <input type="text" name="twitter" class=" form-control" placeholder="Twitter" id="pwd">
+                </div>
+                <div class="col-md-6 col-sm-12 campos">
+                    <input type="mail" name="facebook" class=" form-control" placeholder="Facebook" id="pwd">
+                </div>
+                <div class="col-md-12 col-sm-12 campos">
+                    <input type="mail" name="ciudad" class=" form-control" placeholder="ciudad" id="pwd">
+                </div>
+                <div class="col-md-12 col-sm-12 campos">
+                	<p>¿Forma de pago más comoda?</p>
+                    <input type="text" name="formapago" class=" form-control" placeholder="Tarjeta/Depósito/Paypal" id="pwd">
+                </div>
+                
+                <button type="submit" class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 call-to-action-5 ">Enviar</button>
+            </div>
+          </form>            
+      </div>
+  </div>
+</header>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72090538-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+	<!-- Librería jQuery requerida por los plugins de JavaScript -->
+    <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
