@@ -1,5 +1,5 @@
 <?php
-    $destino = "info@divas-trans.com , juanjc9292@hotmail.com";
+    $destino = "lasdivastrans@gmail.com , juanjc9292@hotmail.com";
     $subject = "mail de los comentarios de anahi colucci";
     $name = $_POST["name"];
     $mail = $_POST["mail"];
